@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title>Ashwood Cross</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"> var page = "story"; </script>
+	<script type="text/javascript" src="script/main.js"></script>
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="image/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="image/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="image/favicon/manifest.json">
+	<link rel="mask-icon" href="image/favicon/safari-pinned-tab.svg" color="#00A300">
+	<meta name="theme-color" content="#FFFFFF">
+
+</head>
+
+<body>
+
+	<!-- Preloads and caches all image assets -->
+	<div id="preloader">
+		<img src="image/banner/0_background.png" width="1" height="1" alt="">
+	</div>
+
+	<div id="wrapper">
+		
+		<!-- Title Bar -->
+		<header>
+
+			<a id="banner" href="https://ashwoodcross.github.io/index.html" rel="start home"><img src="image/banner/0_logo.png" alt="Ashwood Cross Banner"></a>
+			
+			<table class="main-nav-bar"><tr>
+				<td><img src="image/banner/0_menu_filigree_left.png" alt=""></td>
+				<td><a class="banner-button" href="https://ashwoodcross.github.io/about.html" rel="help"><img src="image/banner/0_menu_about.png" alt="About Link"></a></td>
+				<td><img src="image/banner/0_menu_divider.png" alt=""></td>
+				<td><a class="banner-button" href="https://ashwoodcross.github.io/archive.html" rel="search archives index"><img src="image/banner/0_menu_archive.png" alt="Archive Link"></a></td>
+				<td><img src="image/banner/0_menu_divider.png" alt=""></td>
+				<td><a class="banner-button" href="https://twitter.com/Dahold" rel="author external"><img src="image/banner/0_menu_twitter.png" alt="Twitter Link"></a></td>
+				<td><img src="image/banner/0_menu_divider.png" alt=""></td>
+				<td><a class="banner-button" href="https://ashwoodcross.github.io/extras.html"><img src="image/banner/0_menu_extras.png" alt="Extras Link"></a></td>
+				<td><img src="image/banner/0_menu_filigree_right.png" alt=""></td>
+			</tr></table>
+		
+		</header>
+
+		<!-- Main Content Frame -->
+		<section>
+
+			<!-- Top Navbar -->
+			<script type="text/javascript" src="script/navbar.js"></script>
+			
+			<!-- Page Content -->
+			<div id="content"></div>
+
+			<!-- Character Status -->
+			<div id="status"></div>
+
+			<!-- Bottom Navbar -->
+			<script type="text/javascript" src="script/navbar.js"></script>
+
+		</section>
+	</div>
+
+	<!-- Comments Section and Disquis -->
+	<footer>
+
+		<div id="footer">
+			<noscript><p><b>Please enable JavaScript to view and navigate the webpage as intended!</b></p></noscript>
+
+			<div class="column-2-3">
+				<!-- Posting Date and Author Blog Post -->
+				<div id="blog" class="">
+					<h2>Can't Find a Blog Post</h2>
+					<h3>??/??/????</h3>
+					<p>Somehow, the Blog got broken. Whoops!</p>
+				</div>
+
+				<!-- Comments/Suggestions -->
+				<div id="comments">
+					<h2 id="comment-title"></h2>
+					
+					<div id="disqus_thread"></div>
+					<script>
+					    /**
+					     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+					     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+					     */
+					    
+					    var disqus_config = function () {
+					        this.page.url = "https://ashwoodcross.github.io/index.html";  // Replace PAGE_URL with your page's canonical URL variable
+					        this.page.identifier = disqusIdentifier; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+					    };
+					    
+					    (function() {  // DON'T EDIT BELOW THIS LINE
+					        var d = document, s = d.createElement('script');
+					        
+					        s.src = 'https://ashwood-cross.disqus.com/embed.js';
+					        
+					        s.setAttribute('data-timestamp', +new Date());
+					        (d.head || d.body).appendChild(s);
+					    })();
+					</script>
+				</div>
+			</div>
+
+			<div class="column-1-3 float-right">
+				<script type="text/javascript" src="script/sidebar.js"></script>
+			</div>
+		</div>
+
+		<!-- License and Legal Crap -->
+		<div id="license"><div><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Ashwood Cross</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Day Holdampf</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</div></div>
+		
+	</footer>
+
+</body>
